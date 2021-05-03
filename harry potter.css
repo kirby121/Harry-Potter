@@ -113,8 +113,6 @@
   width: 100%;
   height: 100%;
 }
-
-
 @media (max-width: 400px) {
   * {
     font-family: Arial, Helvetica, sans-serif;
@@ -144,5 +142,16 @@
     margin-left: 15%;
     font-size: 18px;
     padding: 10px;
+  }
+  .boton {
+    text-align: center;
+    display: block;
+    color: whitesmoke;
+    border: none;
+    margin: auto;
+    background-color: rgb(104, 104, 104);
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
   }
 }
